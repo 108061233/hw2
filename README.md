@@ -1,1 +1,3 @@
-# hw2
+(1) Firstly, connect the wire exactly, left button to D3, middle to D5, right to D6, D7 is the DAC output and A0 is ADC input, and then use the button to set up the frequnecy (left is up, middle is down and right is select), connect the D7 to a RC filter, after these, you can connect picoscope to the RC filter to measure the wave, or yoe can connect it back to A0, then you use "sudo python3 FFT.py" in terminal and press right button at the same time, sometimes it will be wrong so repeat it more times.
+(2) Please note that when use the ADC, the frequency over 100Hz may have some error.
+(3) The result will be a triangular wave witn proportion 
